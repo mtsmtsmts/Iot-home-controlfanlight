@@ -54,7 +54,7 @@ Enabling the button 'presses' is controlled one of three ways: manually, using G
  
  LAN Example:
         
-        192.168.0.13:8098/webhooks:Temp=on  or  192.168.0.13:8099/restart
+        192.168.0.13:8098/webhooks:CeilingFanon  or  192.168.0.13:8099/restart
         
 
 # Resources
