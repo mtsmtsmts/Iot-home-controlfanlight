@@ -24,7 +24,10 @@ A 12V adapter provides power to a project board which has a LM7805 and powers th
 Enabling the button 'presses' is controlled one of three ways: manually, using Google Assistant and IFTTT webhooks, or an HTTP GET request. A webIDE provides the ability to modify any of the functions OTA. Much code is credited to different authors and the NodeMCU documentation. The webIDE operates in parallel with the application code because of memory limitations. To load the webIDE a browser sends an http request with a key word, resets the esp8266, and starts the webIDE. The user is able to upload new files, edit files stored in flash, compile files, delete files, and restart the NodeMCU. The IDE will automatically exit after 10 minutes and return the esp8266 to application code, restoring the led strip light schedule. 
 
 ### Schematic
+![nodemcusch](https://github.com/mtsmtsmts/Iot-home-controlfanlight/blob/main/ProjectFiles/Schematic%20Nodemcu.jpg?raw=true)
 
+The ceiling fan remote circuit:
+![remotecct](https://github.com/mtsmtsmts/Iot-home-controlfanlight/blob/main/ProjectFiles/Remote%20circuit.jpg?raw=true)
 
 
 
